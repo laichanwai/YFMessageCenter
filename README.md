@@ -6,7 +6,7 @@
 
 **old**
 
-```
+```objc
 // 1. 注册
 [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeText:) name:kChangTextNotification object:nil];
 
@@ -24,7 +24,7 @@
 
 **new**
 
-```
+```objc
 // 1. 定义
 @protocol ChangeTextProtocol <NSObject>
 - (void)changeText:(NSString *)text;
@@ -47,7 +47,7 @@ UN_OBSERVE_MESSAGE(self, ChangeTextProtocol);
 
 ### 协议继承
 
-```
+```objc
 @protocol ChangeTextProtocol2 <ChangeTextProtocol>
 - (void)changeText2:(NSString *)text;
 @end
