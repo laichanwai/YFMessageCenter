@@ -43,6 +43,7 @@
 		29A318822205799300E2E29C /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		29A318832205799300E2E29C /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		29A3188722057F8300E2E29C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		29A31888220584F800E2E29C /* YFMessageCenter.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YFMessageCenter.podspec; sourceTree = "<group>"; };
 		29FE29D82202F2FC00AA1F56 /* YFMessageCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YFMessageCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FE29DC2202F2FC00AA1F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29FE29E32202F33200AA1F56 /* YFMessageCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFMessageCenter.h; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				29A3188722057F8300E2E29C /* README.md */,
+				29A31888220584F800E2E29C /* YFMessageCenter.podspec */,
 				29A3186B2205795300E2E29C /* Examples */,
 				29FE29DA2202F2FC00AA1F56 /* YFMessageCenter */,
 				29FE29D92202F2FC00AA1F56 /* Products */,
